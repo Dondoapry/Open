@@ -1,0 +1,1743 @@
+if os.date("%Y%m%d\n🚬𝚃𝚒𝚖𝚎 : %X %p") > "20221230" then
+hh= gg.alert("HTTPS://APRY.HEXAT.COM")
+os.exit()
+end
+
+PW = gg.prompt({
+  "PEROLEH PASSWORD LEWAT LINK --->> •[https://github.com/DRAGCHANN3L/DRAG.TXT/pull/2]• "
+}, {
+  [1] = ""
+}, {
+  [1] = "text"
+})
+if not PW then
+  return
+end
+if PW[1] == "" then
+  gg.alert("🧟")
+  os.exit()
+end
+if PW[1] =="DragTopix" then
+  gg.toast("🤭")
+else
+  gg.alert("😭")
+  return
+end
+gg.sleep(1000)
+gg.alert("PROGRAM BETA")
+
+
+gg.alert([[
+🇮🇩 : <CC\> DRAG CHANNEL 
+Writer : YOUR FREND
+
+CAR PARKING MULTIPLAYER INDONESIA]])
+gg.setVisible(false)
+
+gg.toast("DRAG CHANNEL")
+gg.sleep(500)
+gg.toast("PROGRAM BETA")
+gg.sleep(500)
+
+gg.clearResults()
+gg.toast("CAR PARKING MULTIPLAYER")
+gg.sleep(75)
+
+
+gg.toast("HTTPS://APRY.HEXAT.COM")
+
+Alert = gg.alert("PROGRAM BETA\n\nDUKUNG TERUS YOUTUBE\n \nDRAG CHANNEL", "SUBSCRIBE", "TEKAN ---->>")
+
+if Alert == nil then end
+if Alert == 1 then end
+if Alert == 2 then gg.alert
+("selamat menikmati")
+gg.alert("DRAG CHANNEL")
+end
+
+
+function menu()
+DRAG = 0
+gg.toast("menu pilihan")
+
+mine = gg.choice({
+
+"💿CAR RACE FRAME",
+"📀Headlight",
+"💿CAR COINS",
+"📀Car UFO",
+"💿CAR Hummer",
+"📀CAR Money in 1lvl",
+"💿CAR M4",
+"📀Menu donate cars",
+"💿Invisible car",
+"📀Chrome tires",
+"💿Chrome tires V2",
+"📀Big wheels",
+"💿Super big wheels",
+"📀Menu hp",
+"💿Free body kits",
+"📀UFO",
+"💿Long nickname",
+"📀Vinyls",
+"💿Car fly on",
+"📀Car fly off",
+"💿Car ball on",
+"📀Car ball off",
+"💿The menu of new body kit",
+"📀editing car in game"},"","🅿🆁🅾🅶🆁🅰🅼 🅱🅴🆃🅰")
+
+if mine == 1 then raceframe() end
+if mine == 2 then flashers() end
+if mine == 3 then coins() end
+if mine == 4 then ufo() end
+if mine == 5 then h1() end
+if mine == 6 then babki() end
+if mine == 7 then m4() end
+if mine == 8 then mmmdanat() end
+if mine == 9 then gho() end
+if mine == 10 then hp() end
+if mine == 11 then hp2() end
+if mine == 12 then bk() end
+if mine == 13 then bbk() end
+if mine == 14 then lsmenu() end
+if mine == 15 then bodykits() end
+if mine == 16 then ufo() end
+if mine == 17 then nick() end
+if mine == 18 then vinyl() end
+if mine == 19 then flyon() end
+if mine == 20 then flyoff() end
+if mine == 21 then ballon() end
+if mine == 22 then balloff() end
+if mine == 23 then box2() end
+if mine == 24 then serv() end
+DRAG=-1
+end
+
+function box2()
+PROGRAM = gg.choice({
+"drag 1",
+"drag 2",
+"drag 3",
+"menu 4"},nil,"gunakan mobil ek9 lalu set bumper dan setelah itu edit di mobil yang mau di setting bumper")
+if PROGRAM == 1 then drag1() end
+if PROGRAM == 2 then drag2() end
+if PROGRAM == 3 then drag3() end
+if PROGRAM == 4 then drag4() end
+end
+
+function drag1()
+gg.searchNumber('1', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.toast("lanjutkan ke bumper 2")
+end
+
+function drag2()
+gg.refineNumber('2', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.toast("lanjut ke bumper 3")
+end
+
+function drag3()
+gg.refineNumber('3', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.toast("sekarang ke mobil pilihan dan lanjut ke bumper 4 untuk melakukan final bumper")
+end
+
+function drag4()
+o = gg.choice({
+"💿Box",
+"📀box1",
+"💿box3",
+"📀box4",
+"💿box5 + headlight",
+"📀roof",
+"💿roof 2",
+"📀roof 3",
+"💿max roof",
+"📀max roof 4",
+"💿max roof 5",
+"📀headlight",
+"💿headlight 2",
+"📀headlight 3",
+"💿headlight 4",
+"📀headlight 5",
+"💿headlight 6",
+"📀headlight 7",
+"💿headlight 8",
+"📀headlight 9",
+"💿headlight 10",
+"📀Welder",
+"💿Air in 1",
+"📀Air in 2",
+"💿Air in 3",
+"📀Antena",
+"💿Spare wheel",
+"📀Swimming pool",
+"💿Mega spoiler",
+"📀Mega spoiler 2",
+"💿Mega spoiler 3",
+"📀Mega spoiler 4",
+"💿Mega spoiler 5",
+"📀Remove the bumper"},nil,"lanjut beli bumper all car")
+if o == 1 then o1() end
+if o == 2 then o2() end
+if o == 3 then o3() end
+if o == 4 then o4() end
+if o == 5 then o5() end
+if o == 6 then o6() end
+if o == 7 then o7() end
+if o == 8 then o8() end
+if o == 9 then o9() end
+if o == 10 then o10() end
+if o == 11 then o11() end
+if o == 12 then o12() end
+if o == 13 then o13() end
+if o == 14 then o14() end
+if o == 15 then o15() end
+if o == 16 then o16() end
+if o == 17 then o17() end
+if o == 18 then o18() end
+if o == 19 then o19() end
+if o == 20 then o20() end
+if o == 21 then o21() end
+if o == 22 then o22() end
+if o == 23 then o23() end
+if o == 24 then o24() end
+if o == 25 then o25() end
+if o == 26 then o26() end
+if o == 27 then o27() end
+if o == 28 then o28() end
+if o == 29 then o29() end
+if o == 30 then o30() end
+if o == 31 then o31() end
+if o == 32 then o32() end
+if o == 33 then o33() end
+if o == 34 then o34() end
+end
+
+function o1()
+gg.editAll('6', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o2()
+gg.editAll('5', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o3()
+gg.editAll('4', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o4()
+gg.editAll('16', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+
+function o5()
+gg.editAll('36', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o6()
+gg.editAll('12', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+
+function o7()
+gg.editAll('20', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o8()
+gg.editAll('35', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o9()
+gg.editAll('43', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o10()
+gg.editAll('44', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o11()
+gg.editAll('45', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function o12()
+gg.editAll('15', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o13()
+gg.editAll('17', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o14()
+gg.editAll('28', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o15()
+gg.editAll('29', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o16()
+gg.editAll('30', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o17()
+gg.editAll('38', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o18()
+gg.editAll('40', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o19()
+gg.editAll('41', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o20()
+gg.editAll('42', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o21()
+gg.editAll('46', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o22()
+gg.editAll('39', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o23()
+gg.editAll('11', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o24()
+gg.editAll('13', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+
+function o25()
+gg.editAll('7', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o26()
+gg.editAll('31', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o27()
+gg.editAll('32', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o28()
+gg.editAll('33', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o29()
+gg.editAll('21', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o30()
+gg.editAll('47', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o31()
+gg.editAll('49', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o32()
+gg.editAll('50', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+function o33()
+gg.editAll('53', gg.TYPE_DWORD)
+gg.getResults(1000)
+
+thanks()
+end
+
+
+function o34()
+gg.editAll('-9', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+end
+
+function flashers()
+gg.toast("DRAG CHANNEL")
+end
+
+function coins()
+gg.searchNumber('30', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.sleep(5000)
+gg.refineNumber('50', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.editAll('-19900', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+gg.clearResults()
+end
+
+
+function h1()
+gg.searchNumber('134', gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.editAll('281', gg.TYPE_DWORD)
+gg.getResults(1000)
+thanks()
+gg.clearResults()
+end
+
+function babki()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('40', gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1666666', gg.TYPE_FLOAT)
+gg.getResults(1000)
+thanks()
+gg.clearResults()
+end
+
+function m4()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('339',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function mmmdanat()
+donat = gg.choice({
+
+"М2",
+"viper",
+"Кamry",
+"х6",
+"Е63",
+"m5",
+"M4",
+"I8",
+"shark",
+"Nissan 350z",
+"Urus",
+"h1",
+"h1",
+"M8",
+"r32",
+"formula",
+"NSX",
+"d1",
+"d2",
+"d3",
+"d4",
+"d5",
+"DRAG"},nil,"PROGRAM BETA")
+
+if donat == 1 then m2() end
+if donat == 2 then viper() end
+if donat == 3 then camry() end
+if donat == 4 then x6() end
+if donat == 5 then e63() end
+if donat == 6 then m5() end
+if donat == 7 then m4() end
+if donat == 8 then i8() end
+if donat == 9 then shark() end
+if donat == 10 then z350() end
+if donat == 11 then urus() end
+if donat == 12 then h1() end
+if donat == 12 then h1() end
+if donat == 13 then may() end
+if donat == 14 then m8() end
+if donat == 15 then r32() end
+if donat == 16 then formula() end
+if donat == 17 then nsx() end
+if donat == 18 then d1() end
+if donat == 19 then d2() end
+if donat == 20 then d3() end
+if donat == 21 then d4() end
+if donat == 22 then d5() end
+if donat == 28 then exit() end
+end
+
+
+function d1()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("89", gg.TYPE_DWORD)
+  gg.getResults(36)
+  gg.editAll("359", gg.TYPE_DWORD)
+  gg.clearResults(36)
+  gg.toast('😀') 
+end
+
+
+function d2()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("89", gg.TYPE_DWORD)
+  gg.getResults(36)
+  gg.editAll("368", gg.TYPE_DWORD)
+  gg.clearResults(36)
+  gg.toast('😀') 
+end
+
+
+function d3()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber("89", gg.TYPE_DWORD)
+  gg.getResults(36)
+  gg.editAll("358", gg.TYPE_DWORD)
+  gg.clearResults(36)
+  gg.toast('😀') 
+end
+
+
+function d4()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber("89", gg.TYPE_DWORD)
+  gg.getResults(36)
+  gg.editAll("361", gg.TYPE_DWORD)
+  gg.clearResults(36) 
+gg.toast('😅') 
+end
+
+function m2()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('295',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function viper()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('321',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function camry()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('288',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function x6()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('280',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function e63()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('276',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function m5()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('260',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function i8()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('312',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function shark()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('322',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function z350()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('325',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function urus()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('293',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function gho()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('290',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function m8()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('324',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function formula()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('341',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function r32()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('342',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function nsx()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('305',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function may()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('134',gg.TYPE_DWORD)
+gg.getResults(49)
+gg.editAll('310',gg.TYPE_DWORD) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function d5() 
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("89", gg.TYPE_DWORD)
+  gg.getResults(36)
+  gg.editAll("360", gg.TYPE_DWORD)
+  gg.clearResults(36)
+  gg.toast('😀') 
+  end
+
+
+function hp()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.alert("HTTPS://APRY.HEXAT.COM")
+gg.sleep(3000)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.searchNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.editAll("-9",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Drag channel ok")
+end
+
+function hp2()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.alert("HTTPS://APRY.HEXAT.COM")
+gg.sleep(3000)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.searchNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.alert("⬇️bawah⬇️")
+gg.sleep(3000)
+gg.refineNumber("0", gg.TYPE_FLOAT)
+gg.alert("⬆️atas⬆️")
+gg.sleep(3000)
+gg.refineNumber("1", gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.editAll("2",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("DRAG CHANNEL OK")
+end
+
+function bk()
+gg.setVisible(false) gg.setRanges(gg.REGION_CODE_APP) gg.searchNumber('0.9',gg.TYPE_FLOAT)
+gg.getResults(49)
+gg.editAll('5',gg.TYPE_FLOAT) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function bbk()
+gg.setRanges(gg.REGION_CODE_APP) 
+gg.searchNumber('0.9',gg.TYPE_FLOAT)
+gg.getResults(49)
+gg.editAll('50',gg.TYPE_FLOAT) gg.clearResults(49)
+thanks()
+gg.clearResults()
+end
+
+function lsmenu()
+lsm = gg.choice({
+"speck 1695",
+"speck 2000",
+
+"DRAG"},nil,"BETA")
+if lsm == 1 then w2000() end
+if lsm == 2 then w16() end
+if lsm == 3 then menu() end
+end
+
+function w16()
+no = gg.choice({
+"1695"},nil,"PROGRAM BETA")
+if no == 1 then ls1695() end
+end
+
+function w2000()
+ch = gg.choice({
+"2000",
+"CUSTOM HP",
+"CUSTOM NM ",
+"SPECK"},nil,"PROGRAM BETA")
+if ch == 1 then ls2000() end
+if ch == 2 then editing() end
+if ch == 3 then editingnorm() end
+if ch == 4 then editingnorm() end
+end
+
+function chit()
+gg.setRanges(gg.REGION_CODE_APP)
+input=gg.prompt({'MASUKAN HP SPECK'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1999', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'UBAH HP SPECK'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('2999', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN TORSI HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'UBAH TORSI HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1011', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert('TUNGGU LOADING DAN RESET TUNNING')
+end
+
+function ls1695()
+gg.setRanges(gg.REGION_CODE_APP)
+input=gg.prompt({'MASUKAN HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1695', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN TORSI'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('2254', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN NM'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('7000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'UBAH TORSI NM'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('3500', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert('TUNGGU LOADING RESET TUNNING')
+end
+
+function ls2000()
+gg.setRanges(gg.REGION_CODE_APP)
+input=gg.prompt({'MASUKAN HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('2000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN TORSI'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('3000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN PRESENTASE HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('7000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'RUBAH TORSI HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('3500', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert('LOADING SELESAI RESET TUNING')
+end
+
+function editingnorm()
+gg.setRanges(gg.REGION_CODE_APP)
+input=gg.prompt({'MASUKAN HP'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1800', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN TORSI'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('2000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'MASUKAN NM'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1000', gg.TYPE_FLOAT)
+gg.clearResults()
+input=gg.prompt({'RUBAH TORSI NM'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll('1200', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert('LOADING RESET TUNING')
+end
+
+function bodykits()
+gg.setRanges(gg.REGION_ANONYMOUS)
+input=gg.prompt({'MASUKAN HARGA BODI'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.searchNumber(input[1],gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.sleep(3000)
+input=gg.prompt({'GESER BODI MOBIL'}, 
+{[1]='0'}, 
+{[1]='number'}) 
+if input==nil then 
+os.exit() 
+end
+gg.refineNumber(input[1],gg.TYPE_DWORD)
+gg.getResults(1000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function ufo()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+gg.searchNumber('-15',gg.TYPE_FLOAT)
+gg.getResults(5000)
+gg.editAll('-90',gg.TYPE_FLOAT)
+gg.clearResults()
+thanks()
+end
+
+function nick()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.alert("TEKAN SATU HURUF NAMA")
+gg.sleep(8000)
+gg.searchNumber("12;1",gg.TYPE_DWORD)
+gg.alert("TAMBAHKAN NAMA MENJADI 3 HURUF")
+gg.sleep(8000)
+gg.refineNumber("12;3",gg.TYPE_DWORD)
+gg.sleep(2000)
+gg.refineNumber("12",gg.TYPE_DWORD)
+gg.getResults(5)
+gg.editAll("999999", gg.TYPE_DWORD)
+gg.clearResults()
+thanks()
+end
+
+function vinyl()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.alert("DRAG 1")
+gg.sleep(8000)
+gg.searchNumber("20;1",gg.TYPE_DWORD)
+gg.alert("TAMBAHKAN 3 ANGKA HURUF")
+gg.sleep(8000)
+gg.refineNumber("20;3",gg.TYPE_DWORD)
+gg.sleep(2000)
+gg.refineNumber("20",gg.TYPE_DWORD)
+gg.getResults(5)
+gg.editAll("99999", gg.TYPE_DWORD)
+gg.clearResults()
+thanks()
+end
+
+function flyon()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-999999999999999", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.searchNumber("0.22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("999999999999999999999999999999999", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults() 
+thanks()
+end
+
+function flyoff()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-999999999999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("40000", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.searchNumber("999999999999999999999999999999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.22", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults() 
+thanks()
+end
+
+function ballon()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.100000008", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("3", gg.TYPE_FLOAT)
+
+local t = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+gg.processResume()
+gg.clearResults()
+gg.searchNumber("-0.100000008", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-3", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.toast("DRAG CHANNEL")
+end
+
+
+function balloff()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.100000008", gg.TYPE_FLOAT)
+
+local t = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+gg.processResume()
+gg.clearResults()
+gg.searchNumber("-3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-0.100000008", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.toast("DRAG CHANNEL")
+end
+
+function raceframe()
+MODE = gg.choice({
+
+"💿ONstartGravity",
+"📀ONstartRaceGo",
+"💿ONcustomSpeed",
+"📀OFFstartRaceGo",
+"💿OFFvalueRace",
+"📀StartAttackRace",
+"💿ModeRaceTunupStandard",
+"📀ModeRaceFly402m",
+"💿ModeRaceFly1600m",
+"📀ModeRaceFly3km",
+"💿ModeRaceLiaran",
+"📀ModeRaceMelawanNanTimeON",
+"💿ModeRaceMelawanNanTimeOFF",
+"📀ModeRaceNormalLiaranRepireCar",
+
+"Exit"},nil,"🇮🇩PROGRAM BETA # CAR PARKING MULTIPLAYER INDONESIA🇮🇩")
+
+if MODE == 1 then ONstartGravity() end
+if MODE == 2 then ONstartRaceGo() end
+if MODE == 3 then ONcustomSpeed() end
+if MODE == 4 then OFFstartRaceGo() end
+if MODE == 5 then OFFvalueRace() end
+if MODE == 6 then StartAttackRace() end
+if MODE == 7 then ModeRaceTunupStandard() end
+if MODE == 8 then ModeRaceFly402m() end
+if MODE == 9 then ModeRaceFly1600m() end
+if MODE == 10 then ModeRaceFly3km() end
+if MODE == 11 then ModeRaceLiaran() end
+if MODE == 12 then ModeRaceMelawanNanTimeON() end
+if MODE == 13 then ModeRaceMelawanNanTimeOFF() end
+if MODE == 14 then ModeRaceNormalLiaranRepireCar() end
+if MODE == 15 then Exit() end
+end
+
+
+function ONstartGravity()
+gg.clearResults()
+gg.toast("DRAG CHANNEL")
+gg.isVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("012;356;789::56", gg.TYPE_DWORD)
+gg.clearResults()
+gg.sleep(2000)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+gg.searchNumber("3.6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+gg.toast("DRAG")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+gg.searchNumber("17170432;0;0;1065353216;-1:65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+gg.sleep(300)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+gg.refineNumber("1065353216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+ if gg.isVisible(true) then
+ gg.clearResults()
+  gg.alert("HTTPS://APRY.HEXAT.COM")
+  os.exit()
+  end
+gg.processResume()
+revert = gg.getResults(99999)
+gg.toast("DRAG✓")
+end
+
+function ONstartRaceGo()
+revert = gg.getResults(99999)
+gg.editAll("1095353216", gg.TYPE_DWORD)
+
+revert = gg.getListItems()
+local t = gg.getListItems()
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "900"
+		v.freeze = true
+		v.freezeType = gg.FREEZE_NORMAL
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.toast("HTTPS://APRY.HEXAT.COM")
+end
+
+function ONcustomSpeed()
+b = gg.prompt({"DRAG :[1;15]"},{[1]=5},{"number"})
+if menu == nil then 
+DATA = menu[1]
+end                     --1                          --2                   --3                -4     --5                    -6                      
+local bini1={"-1093894483","-1093884483","-1094874483","0","1065353216","1073741824","1077936128","1082130432","1084227584","1086324736","1088421888","1090519040","1091567616","1092616192","1094713344"}
+local bini2=b[1]
+local bini3=bini1[tonumber(bini2)]
+
+revert = gg.getResults(99999)
+gg.editAll("  "..bini3, gg.TYPE_DWORD)
+gg.toast("DRAG CHANNEL")
+end
+
+function OFFstartRaceGo()
+revert = gg.getListItems()
+local t = gg.getListItems()
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "3.6"
+		v.freeze = true
+		v.freezeType = gg.FREEZE_NORMAL
+	end
+end
+gg.addListItems(t)
+t = nil
+
+gg.sleep(200)
+gg.editAll("1065353216", gg.TYPE_DWORD)
+gg.toast("KEMBALIKAN VALUE")
+end
+
+function OFFvalueRace()
+revert = gg.getListItems()
+local t = gg.getListItems()
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "3"
+		v.freeze = true
+		v.freezeType = gg.FREEZE_NORMAL
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.toast("HTTPS://APRY.HEXAT.COM")
+end
+
+function StartAttackRace()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3.6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.searchNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults() 
+thanks()
+end
+
+function ModeRaceTunupStandard()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("5", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+end
+
+function ModeRaceFly402m()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("500", gg.TYPE_FLOAT)
+gg.sleep(500)
+gg.getResults(10)
+gg.editAll("-9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-9999999", gg.TYPE_FLOAT)
+gg.sleep(1050)
+gg.getResults(10)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.getResults(10)
+gg.sleep(150)
+gg.sleep(150)
+
+
+gg.searchNumber("-20000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9", gg.TYPE_FLOAT)
+gg.processResume()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("10", gg.TYPE_FLOAT)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-20000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.sleep(50)
+end
+
+
+function ModeRaceFly1600m()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-44", gg.TYPE_FLOAT)
+
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("500", gg.TYPE_FLOAT)
+gg.sleep(500)
+gg.getResults(10)
+gg.editAll("-9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-9999999", gg.TYPE_FLOAT)
+gg.sleep(5000)
+gg.getResults(10)
+gg.editAll("4579", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.sleep(100)
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-20000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9", gg.TYPE_FLOAT)
+gg.processResume()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("18", gg.TYPE_FLOAT)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-20000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.sleep(150)
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-9999", gg.TYPE_FLOAT)
+gg.processResume()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.01", gg.TYPE_FLOAT)
+
+gg.clearList()
+gg.processResume()
+gg.clearResults()
+end
+
+
+function ModeRaceFly3km()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("500", gg.TYPE_FLOAT)
+gg.sleep(500)
+gg.getResults(10)
+gg.editAll("-9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-9999999", gg.TYPE_FLOAT)
+gg.sleep(9000)
+gg.getResults(10)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.getResults(10)
+end
+
+
+function ModeRaceLiaran()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.clearResults()
+gg.clearList()
+gg.setVisible(false) 
+gg.searchNumber('2500',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('-99999',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+gg.searchNumber("0.29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('1.1',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('10',gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('10000000',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('-1E-45',gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('h66666640',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('h44444',gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+gg.clearList()
+gg.toast("PROGRAM BETA")
+gg.clearResults()
+gg.clearList()
+if gg.isVisible(true) then
+gg.clearResults()
+end
+gg.toast("PROGRAM BETA")
+gg.sleep(900)
+gg.alert("ARE YOU SURE BROTHER GO")
+gg.sleep(100)
+gg.alert("ARE YOU READY")
+gg.sleep(200)
+gg.alert("LOADING FRAME RACE ROOM")
+gg.sleep(300)
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP) 
+gg.searchNumber("500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-2", gg.TYPE_FLOAT)
+gg.sleep(20)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.processResume()
+gg.clearResults()
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.20000004768F;0.0549999997F;1.05499994755F;2.40000009537F:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+gg.refineNumber("2.2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("55", gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("5", gg.TYPE_FLOAT)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.00001", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+gg.toast("READY RACE  BROTHER")
+gg.sleep(500)
+gg.alert("GO.. TO... INVITE... RACE... BROTHER... NOWWW")
+gg.sleep(1500)
+
+end
+
+function ModeRaceMelawanNanTimeON()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0D;1D;2D;3D;4D;5D;6D;7D;8D;9D;16D;17D;18D;19D;20D;21D;22D;23D;24D;25D:77", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.processResume()
+  gg.refineNumber("0;1;2;3;4;5;6;7;8;9;16;17;18;19;20;21;22;23;24;25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+ gg.editAll("0;1;2;3;4;5;6;7;8;9", gg.TYPE_DWORD)
+  gg.toast("😱")
+gg.clearResults()
+gg.sleep(10)
+gg.toast("⛈️")
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/> GO START SLOW")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.sleep(10)
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/>  - OPEN - NOW")
+gg.clearList()
+gg.sleep(10)
+gg.toast("😵‍💫")
+gg.setRanges(gg.REGION_JAVA_HEAP | gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)gg.sleep(10)
+gg.processResume()
+gg.processResume()
+gg.toast("😵‍💫")
+gg.setSpeed(1.0)
+gg.toast("😵‍💫")
+gg.setSpeed(1.2)
+gg.toast("😵‍💫")
+gg.setSpeed(1.3)
+gg.toast("😵‍💫")
+gg.setSpeed(1.5)
+gg.toast("😵‍💫")
+gg.setSpeed(2.0)
+gg.toast("😵‍💫")
+gg.setSpeed(3.0)
+gg.toast("😵‍💫")
+gg.setSpeed(4.0)
+gg.toast("😵‍💫")
+gg.setSpeed(5.0)
+gg.toast("😵‍💫")
+gg.setSpeed(6.0)
+gg.toast("😵‍💫")
+gg.setSpeed(9.0)
+gg.toast("😵‍💫")
+gg.searchNumber("0.35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(210, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("DRAG CHANNEL")
+gg.toast("https://github.com/DRAGCHANN3L/DRAG.TXT/pull/2")
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/>")
+
+end
+
+
+function ModeRaceMelawanNanTimeOFF()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0;1;2;3;4;5;6;7;8;9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.processResume()
+
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+ gg.editAll("0;1;2;3;4;5;6;7;8;9;16;17;18;19;20;21;22;23;24;25", gg.TYPE_DWORD)
+  gg.toast("😱")
+gg.clearResults()
+gg.sleep(10)
+gg.toast("⛈️")
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/> GO START SLOW")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.sleep(10)
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/>  - OPEN - NOW")
+gg.clearList()
+gg.sleep(10)
+gg.toast("😵‍💫")
+gg.setRanges(gg.REGION_JAVA_HEAP | gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)gg.sleep(10)
+gg.processResume()
+gg.processResume()
+gg.toast("😵‍💫")
+gg.setSpeed(9.0)
+gg.toast("😵‍💫")
+gg.setSpeed(6.0)
+gg.toast("😵‍💫")
+gg.setSpeed(5.0)
+gg.toast("😵‍💫")
+gg.setSpeed(4.0)
+gg.toast("😵‍💫")
+gg.setSpeed(3.0)
+gg.toast("😵‍💫")
+gg.setSpeed(2.0)
+gg.toast("😵‍💫")
+gg.setSpeed(1.5)
+gg.toast("😵‍💫")
+gg.setSpeed(1.3)
+gg.toast("😵‍💫")
+gg.setSpeed(1.2)
+gg.toast("😵‍💫")
+gg.setSpeed(1.0)
+gg.toast("😵‍💫")
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(210, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.35", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("DRAG CHANNEL")
+gg.toast("https://github.com/DRAGCHANN3L/DRAG.TXT/pull/2")
+gg.toast("ᶜ̷ᶜ̷<ĐⱤ₳₲/>")
+MainExit()
+end
+
+
+
+function ModeRaceNormalLiaranRepireCar()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('-99999',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('2500',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('10',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('1.1',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('-1E-45',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('10000000',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('0.0001',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('5000',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('5000',gg.TYPE_FLOAT)
+gg.getResults('99999')
+gg.editAll('0.0001',gg.TYPE_FLOAT)
+gg.clearResults()
+
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.40000000596;5.0;0.10000000149:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+local t = gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+
+gg.clearResults()
+
+local copy = false
+local t = gg.getListItems()
+if not copy then gg.removeListItems(t) end
+for i, v in ipairs(t) do
+	v.address = v.address + 0x8
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(t)
+t = nil
+copy = nil
+
+
+ gg.clearResults()
+  
+revert = gg.getListItems()
+local t = gg.getListItems()
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "1.40129846e-45"
+		v.freeze = true
+		v.freezeType = gg.FREEZE_NORMAL
+	end
+end
+gg.addListItems(t)
+t = nil
+end
+gg.clearResults()
+gg.clearList()
+ gg.clearResults()
+gg.toast("PROGRAM BETA")
+function thanks()
+gg.toast("DRAG CHANNEL")
+gg.sleep(700)
+gg.toast("ARE YOU READY")
+MainExit()
+end
+
+function serv()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("700", gg.TYPE_FLOAT)
+gg.getResults(5000)
+gg.editAll("999999999999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("700", gg.TYPE_FLOAT)
+gg.getResults(5000)
+gg.editAll("999999999999999", gg.TYPE_FLOAT)
+gg.clearResults()
+thanks()
+end
+
+
+while true do
+if gg.isVisible(true) then
+DRAG= 1
+gg.setVisible(false)
+end
+if DRAG == 1 then menu() end
+end
