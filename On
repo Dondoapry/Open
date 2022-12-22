@@ -1,1 +1,824 @@
+if gg.alert("ꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n🇮🇩 𝐒𝐂𝐑𝐈𝐏𝐓 PROGRAM BETA 🇮🇩\nꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n𝐎𝐖𝐍𝐄𝐑 : @DRAG\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝐀𝐩𝐩 𝐧𝐚𝐦𝐞 : " .. gg.getTargetInfo()["label"] .. " \n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : " .. gg.getTargetInfo()["versionName"] .. " [" .. gg.getTargetInfo()["versionCode"] .. "]\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : 𝐕𝐕𝐈𝐏+\n-------------------------\n" .. "", "🅾🅺", "🅴🆇🅸🆃") ~= 1 then
+gg.setVisible(false)
+gg.clearResults()
+gg.clearList()
 
+gg.toast("𝐓𝐇𝐀𝐍𝐊 𝐘𝐎𝐔 𝐅𝐑𝐎𝐌 DRAG CHANNEL")
+gg.clearResults()gg.clearList()
+print(os.date("🄳🄾🄽🅃 🄵🄾🅁🄶🄴🅃 🅃🄾 🅂🅄🄱🅂🄲🅁🄸🄱🄴 🄱🅁🄾\n\n⏱️ Today : %Y/%m/%d Time: %H:%M:%S ⏱️\n\n"))
+print("        ➧ Ⓢⓒⓡⓘⓟⓣ Ⓑⓨ ➠\n\n                             𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃   : ★᭄ꦿ᭄ꦿPROGRAM BETA★᭄ꦿ᭄ꦿ\n\n                              𝔽ℝ𝕆𝕄 𝕀ℕ𝔻𝕆ℕ𝔼𝕊𝕀𝔸     : 🇮🇩\n\n                 ━─━───────────༺ᴇxɪᴛ༻──────────━─━")  
+gg.sleep(500)
+gg.setVisible(true)
+  os.exit()
+  end
+
+DRAG = 2 
+
+gg.toast("PRESS GG LOGO")
+
+
+
+
+
+function mainMenu()
+gg.setVisible(false)
+local setVis=gg.setVisible
+local isVis=gg.isVisible
+local showmenu=false
+setVis(false)
+
+while true do
+    if isVis() == true then
+      showmenu=true
+      setVis(false)
+    end
+    if showmenu==true then
+      showmenu=false
+firstMenu = gg.multiChoice({"INFINITY⚡","MODE 👑 ","RACE 🏁","❌EXIT❌"},nil,"Creat By olzhas")
+if firstMenu == nil then
+gg.toast("\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐛𝐲 : PROGRAM BETA\n \n𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 𝙷𝙰𝙲𝙺 𝚄𝙿𝙳𝙰𝚃𝙴𝚂")
+mainMenu()
+end
+if firstMenu[1] then
+cheat_1()
+end
+
+if firstMenu[2] then
+cheat_2()
+end
+
+if firstMenu[3] then
+cheat_3()
+end
+
+if firstMenu[4] then
+setVis(false)
+gg.clearResults()
+gg.clearList()
+gg.sleep(200)
+gg.toast("DRAG CHANNEL")
+gg.sleep(200)
+
+gg.toast("𝐓𝐇𝐀𝐍𝐊 𝐘𝐎𝐔 𝐅𝐑𝐎𝐌 PROGRAM BETA 𝐜𝐡𝐚𝐧𝐧𝐞𝐥")
+gg.clearResults()gg.clearList()
+print(os.date("🄳🄾🄽🅃 🄵🄾🅁🄶🄴🅃 🅃🄾 🅂🅄🄱🅂🄲🅁🄸🄱🄴 🄱🅁🄾\n\n⏱️ Today : %Y/%m/%d Time: %H:%M:%S ⏱️\n\n"))
+print("        ➧ Ⓢⓒⓡⓘⓟⓣ Ⓑⓨ ➠\n\n                             𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃   : ★᭄ꦿ᭄ꦿDRAG CHANNEL★᭄ꦿ᭄ꦿ\n\n                              𝔽ℝ𝕆𝕄 𝕀ℕ𝔻𝕆ℕ𝔼𝕊𝕀𝔸     : 🇮🇩\n\n                 ━─━───────────༺ᴇxɪᴛ༻──────────━─━")  
+gg.sleep(500)
+setVis(true) 
+os.exit()
+end
+end
+end
+end
+
+
+function cheat_1()
+DRAGt("MultiDragRacingControll", "0xFC", false, false, gg.TYPE_FLOAT)
+gg.getResults(9999)
+local t = gg.getResults(2)
+   gg.addListItems(t)
+       t = nil
+       gg.setVisible(false)      
+          revert = gg.getListItems()
+local t = gg.getListItems()
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_FLOAT then
+		v.value = "55555"
+		v.freeze = false
+		v.freezeType = gg.FREEZE_NORMAL
+	end
+end
+gg.addListItems(t)
+t = nil
+
+o = gg.getResults(1)
+
+local b = {}
+b[1] = {}
+b[1].address = o[1].address + 0x30
+b[1].flags = gg.TYPE_FLOAT
+b[1].value = 8088
+b[1].freeze = true
+		b[1].freezeType = gg.FREEZE_NORMAL
+gg.setValues(b) 
+gg.addListItems(b)
+b = nil
+gg.processResume()
+
+k = gg.getResults(1)
+
+local l = {}
+l[1] = {}
+l[1].address = k[1].address + 0x24
+l[1].flags = gg.TYPE_FLOAT
+l[1].value = 0
+l[1].freeze = true
+		l[1].freezeType = gg.FREEZE_NORMAL
+gg.setValues(l) 
+gg.addListItems(l)
+l = nil
+gg.processResume()
+
+
+w = gg.getResults(1)
+
+local q = {}
+q[1] = {}
+q[1].address = w[1].address + 0x18
+q[1].flags = gg.TYPE_FLOAT
+q[1].value = -9999999999999999999999999999999999999999999999999999999999999999999999999999999
+q[1].freeze = true
+		q[1].freezeType = gg.FREEZE_NORMAL
+gg.setValues(q) 
+gg.addListItems(q)
+q = nil
+gg.clearResults()
+gg.setVisible(false)
+gg.toast("𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞")
+gg.sleep(200)
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝚘𝚙𝚎𝚗 𝚖𝚎𝚗𝚞")
+end
+
+
+function cheat_2()
+gg.setVisible(false)
+local setVis=gg.setVisible
+local isVis=gg.isVisible
+local showmenu=false
+setVis(false)
+
+
+while true do
+  if gg.isVisible()==false then
+    order=gg.alert("𝐂𝐫𝐞𝐚𝐭 𝐛𝐲 : DRAG CHANNEL","𝐒𝐂𝐀𝐍 FLY🔎","BUG_OFF🚨","🔙 𝐌𝐄𝐍𝐔")
+    if order == 1 then 
+      goto fly
+    if order == 2 then 
+      goto bug
+    elseif order == 3 then
+    goto backtomainmenu
+    end
+  end
+end
+
+
+::fly:: do
+gg.clearResults()
+
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+
+
+
+mainMenu()
+end
+
+ 
+::backtomainmenu:: do
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝚘𝚙𝚎𝚗 𝚖𝚎𝚗𝚞")
+mainMenu()
+end
+end
+
+
+::bug:: do
+gg.setRanges(gg.REGION_CODE_APP)
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("0;1;2;3;4;5;6;7;8;9;16;17;18;19;20;21;22;23;24;25", gg.TYPE_DWORD)
+gg.clearList()
+
+
+
+mainMenu()
+end
+
+ 
+::backtomainmenu:: do
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝚘𝚙𝚎𝚗 𝚖𝚎𝚗𝚞")
+mainMenu()
+end
+end
+
+
+
+
+
+
+function cheat_3()
+gg.setVisible(false)
+local setVis=gg.setVisible
+local isVis=gg.isVisible
+local showmenu=false
+setVis(false)
+
+
+while true do
+  if gg.isVisible()==false then
+    order=gg.alert("𝐂𝐫𝐞𝐚𝐭 𝐛𝐲 : PROGRAM BETA","FLY_GO🏁","BUG_LAMP🏁")
+    if order == 1 then 
+      goto race402
+   elseif order == 2 then
+    goto buglamp
+    end
+  end
+end
+::race402:: do
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝙵𝚒𝚗𝚒𝚜𝚑🏁")
+while true do
+    if isVis() == true then
+      showmenu=true
+      setVis(false)
+    end
+    if showmenu==true then
+      showmenu=false
+
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("-99999", gg.TYPE_FLOAT)
+
+gg.alert("TURUN TAIK")
+if revert ~= nil then gg.setValues(revert) end
+
+gg.clearList()
+
+
+gg.toast("𝟒𝟎𝟐 𝐦✓")
+gg.sleep(200)
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝚘𝚙𝚎𝚗 𝚖𝚎𝚗𝚞")
+mainMenu()
+   end
+ end
+end
+
+ 
+::buglamp:: do
+gg.toast("𝙿𝚛𝚎𝚜𝚜 𝙶𝙶 𝙻𝚘𝚐𝚘 𝚝𝚘 𝙵𝚒𝚗𝚒𝚜𝚑🏁")
+while true do
+    if isVis() == true then
+      showmenu=true
+      setVis(false)
+    end
+    if showmenu==true then
+      showmenu=false
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0D;1D;2D;3D;4D;5D;6D;7D;8D;9D;16D;17D;18D;19D;20D;21D;22D;23D;24D;25D:77", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("0;1;2;3;4;5;6;7;8;9;16;17;18;19;20;21;22;23;24;25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("0;0;0;0", gg.TYPE_DWORD)
+
+mainMenu()
+   end
+  end
+ end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function DRAGt(class, offset, tryHard, bit32, valueType)
+Get_user_input = {}
+Get_user_input[1] = class
+Get_user_input[2] = offset
+Get_user_input[3] = tryHard
+Get_user_input[4] = bit32
+Get_user_type = valueType
+start()
+end
+
+
+function loopCheck()
+if DRAG == 1 then
+UI()
+elseif error == 3 then
+stopClose()
+end
+end
+
+
+
+
+
+
+function found_(message)
+if error == 1 then
+found2(message)
+elseif error == 2 then
+found3(message)
+elseif error == 3 then
+found4(message)
+else
+found(message)
+end
+end
+
+
+
+
+
+function found(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+first_error = message
+error = 1
+second_start()
+end
+end
+
+
+
+
+
+function found2(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+second_error = message
+error = 2
+third_start()
+end
+end
+
+
+
+
+
+function found3(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+third_error = message
+error = 3
+fourth_start()
+end
+end
+
+
+
+
+
+function found4(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+gg.alert("❌𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴 𝙸𝙽 𝚃𝙷𝙴 𝚁𝙾𝙾𝙼❌")
+gg.setVisible(true)
+loopCheck()
+end
+end
+
+
+
+
+
+function user_input_taker()
+::stort::
+gg.clearResults()
+if DRAG == 1 then
+if Get_user_input == nil then
+default1 = "PlayerController"
+default2 = "0x148"
+default3 = false
+default4 = false
+else
+default1 =Get_user_input[1]
+default2 = Get_user_input[2]
+default3 = Get_user_input[3]
+default4 = Get_user_input[4]
+end
+Get_user_input = gg.prompt(
+{"🔰Script By🔰: DRAG\n\nClass Name: ", "Offset: ","Try Harder --(decreases accuracy)","Try For 32 bit"},
+{default1,default2,default3,default4},
+{"text","text","checkbox","checkbox"})
+if Get_user_input ~= nil then
+if (Get_user_input[1] == "") or (Get_user_input[2] == "") then
+gg.alert("ℹ️ Don't Leave Input Blankℹ️")
+goto stort
+end
+else
+gg.alert("ℹ️ Error : Try again ℹ️")
+goto stort
+end
+Get_user_type = gg.choice({"1. Byte / Boolean","2. Dword / 32 bit Int","3. Qword / 64 bit Int","4. Float","5. Double"},nil,"🔰Script By🔰: DRAG\n\nℹ️ Choose The Output Type ℹ️")
+if Get_user_type == 1 then
+Get_user_type = gg.TYPE_BYTE
+elseif Get_user_type == 2 then
+Get_user_type = gg.TYPE_DWORD
+elseif Get_user_type == 3 then
+Get_user_type = gg.TYPE_QWORD
+elseif Get_user_type == 4 then
+Get_user_type = gg.TYPE_FLOAT
+elseif Get_user_type == 5 then
+Get_user_type = gg.TYPE_DOUBLE
+end
+if Get_user_type ~= gg.TYPE_BYTE then
+if (Get_user_input[2] % 4) ~= 0 then
+gg.alert("ℹ️Hex Offset Must Be An Multiple OF 4ℹ️")
+goto stort
+end
+end
+end
+error = 0 
+end
+
+
+
+
+
+
+function O_initial_search()
+gg.setVisible(false)
+gg.toast("🟢LOADING : First Try")
+user_input = ":"..Get_user_input[1] 
+if Get_user_input[3] then
+offst = 25
+else
+offst = 0
+end
+end
+
+
+
+
+
+
+function O_dinitial_search()
+if error > 1 then
+gg.setRanges(gg.REGION_C_ALLOC)
+else
+gg.setRanges(gg.REGION_OTHER)
+end
+gg.searchNumber(user_input, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+Refiner = gg.getResults(1)
+gg.refineNumber(Refiner[1].value, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+val = gg.getResults(count)
+gg.addListItems(val)
+end
+
+
+
+
+
+
+function CA_pointer_search()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.loadResults(gg.getListItems())
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("CA_pointer_search")
+return 0
+end
+vel = gg.getResults(count)
+gg.clearList()
+gg.addListItems(vel)
+end
+
+
+
+
+
+
+function CA_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+function CA2_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+
+
+
+
+
+function Q_apply_fix()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix")
+return 0
+end
+yy = gg.getResults(1000)
+gg.clearResults()
+i = 1
+c = 1
+s = {}
+while (i-1) < count do
+yy[i].address = yy[i].address + 0xb400000000000000
+gg.searchNumber(yy[i].address, gg.TYPE_QWORD)
+cnt = gg.getResultsCount()
+if 0 < cnt then
+bytr = gg.getResults(cnt)
+n = 1
+while (n-1) < cnt do
+s[c] = {}
+s[c].address = bytr[n].address
+s[c].flags = 32
+n = n + 1
+c = c + 1
+end
+end
+gg.clearResults()
+i = i + 1
+end
+gg.addListItems(s)
+end
+
+
+
+
+
+
+function A_base_value()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_value")
+return 0
+end
+tel = gg.getResults(count)
+gg.addListItems(tel)
+end
+
+
+
+
+
+
+function A_base_accuracy()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_accuracy")
+return 0
+end
+kol = gg.getResults(count)
+i = 1
+h = {}
+while (i-1) < count do
+h[i] = {}
+h[i].address = kol[i].value
+h[i].flags = 32
+i = i + 1
+end
+gg.addListItems(h)
+end
+
+
+
+
+
+
+function A_user_given_offset()
+local old_save_list = gg.getListItems()
+for i, v in ipairs(old_save_list) do
+v.address = v.address + Get_user_input[2]
+v.flags = Get_user_type
+end
+gg.clearResults()
+gg.clearList()
+gg.loadResults(old_save_list)
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix++")
+return 0
+end
+gg.setVisible(true)
+end
+
+
+
+
+
+function start()
+user_input_taker()
+O_initial_search()
+O_dinitial_search()
+if error > 0 then
+return 0
+end
+CA_pointer_search()
+if error > 0 then
+return 0
+end
+CA_apply_offset()
+if error > 0 then
+return 0
+end
+A_base_value()
+if error > 0 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 0 then
+return 0
+end
+A_user_given_offset()
+if error > 0 then
+return 0
+end
+loopCheck()
+if error > 0 then
+return 0
+end
+end
+
+
+
+
+
+
+function second_start()
+gg.toast("🟡LOADING : Second Try")
+O_dinitial_search()
+if error > 1 then
+return 0
+end
+CA_pointer_search()
+if error > 1 then
+return 0
+end
+CA_apply_offset()
+if error > 1 then
+return 0
+end
+Q_apply_fix()
+if error > 1 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 1 then
+return 0
+end
+A_user_given_offset()
+if error > 1 then
+return 0
+end
+loopCheck()
+if error > 1 then
+return 0
+end
+end
+
+
+
+
+
+
+function third_start()
+gg.toast("🔴LOADING : Third Try")
+O_dinitial_search()
+if error > 2 then
+return 0
+end
+CA_pointer_search()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+CA2_apply_offset()
+end
+if error > 2 then
+return 0
+end
+A_base_value()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 2 then
+return 0
+end
+A_user_given_offset()
+if error > 2 then
+return 0
+end
+loopCheck()
+if error > 2 then
+return 0
+end
+end
+
+
+
+
+
+
+function fourth_start()
+gg.toast("☢️LOADING : Fourth Try")
+O_dinitial_search()
+CA_pointer_search()
+CA2_apply_offset()
+Q_apply_fix()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+
+function UI()
+gg.showUiButton()
+while true do
+if gg.isClickedUiButton() then
+start()
+end
+end
+end
+
+
+
+
+
+
+function stopClose()
+while true do
+mainMenu()
+gg.setVisible(false)
+while gg.isVisible() == false do
+end
+end
+end
+
+
+
+if DRAG == 2 then
+stopClose()
+else
+UI()
+end
